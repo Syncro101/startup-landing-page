@@ -15,7 +15,7 @@ Pull requests are welcome. For major changes, please open an issue first to revi
 ## License
 You can read more about it here: [MIT](https://choosealicense.com/licenses/mit/)
 
-### Useful articles that helped me build this project:
+## Useful articles that helped me build this project:
 
 https://awik.io/check-if-element-is-inside-viewport-with-javascript/
 
