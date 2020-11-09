@@ -17,6 +17,6 @@ You can read more about it here: [MIT](https://choosealicense.com/licenses/mit/)
 
 ### Useful articles that helped me build this project:
 
-https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/
+https://awik.io/check-if-element-is-inside-viewport-with-javascript/
 
 https://gomakethings.com/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/

@@ -30,11 +30,13 @@ const scrollToSection = (event) => {
 }
 
 const isElementInViewport = (element) => {
+    const myElementHeight = element.offsetHeight;
+    const myElementWidth = element.offsetWidth;
     const bounding = element.getBoundingClientRect();
     return (
-        bounding.top >= 0 && bounding.left >= 0 &&
-        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-        && bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+        bounding.top >= -myElementHeight && bounding.left >= -myElementWidth &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) + myElementHeight
+        && bounding.right <= (window.innerWidth || document.documentElement.clientWidth) + myElementWidth
     );
 }
 //End: Helper Functions
